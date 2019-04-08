@@ -93,9 +93,9 @@ public class BannerLayout extends FrameLayout {
         isAutoPlaying = a.getBoolean(R.styleable.BannerLayout_autoPlaying, true);
         isFlingScale = a.getBoolean(R.styleable.BannerLayout_flingScale, true);
         autoPlayInterval = a.getInt(R.styleable.BannerLayout_intervalDuration, 3000);
-        itemSpace = a.getInt(R.styleable.BannerLayout_itemSpace, 20);
-        centerScale = a.getFloat(R.styleable.BannerLayout_centerScale, 1.2f);
-        moveSpeed = a.getFloat(R.styleable.BannerLayout_moveSpeed, 1.0f);
+        itemSpace = a.getInt(R.styleable.BannerLayout_itemSpace, 0);
+        centerScale = a.getFloat(R.styleable.BannerLayout_centerScale, 1.0f);
+        moveSpeed = a.getFloat(R.styleable.BannerLayout_moveSpeed, 1.8f);
         mSelectedDrawable = a.getDrawable(R.styleable.BannerLayout_indicatorDrawableSelected);
         mUnselectedDrawable = a.getDrawable(R.styleable.BannerLayout_indicatorDrawableUnselected);
         bannerOrientation = a.getInt(R.styleable.BannerLayout_orientation, 0);
