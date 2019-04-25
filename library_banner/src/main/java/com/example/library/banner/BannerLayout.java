@@ -264,14 +264,10 @@ public class BannerLayout extends FrameLayout {
         mRecyclerView.setAdapter(adapter);
 
 
-
-
-
-
         bannerSize = adapter.getItemCount();
         mLayoutManager.setInfinite(bannerSize >= 2);
         if (bannerSize >= 2) {
-            isAutoPlaying = true;
+//            isAutoPlaying = true;
             initIndicatorContainer();
         }
         hasInit = true;
